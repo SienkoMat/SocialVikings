@@ -23,7 +23,7 @@ h1 {
       font-size: 24px;
       line-height: 28.8px; } }
 
-h3 {
+h2 {
   font-size: 36px;
   font-family: Smooch Sans, Arial;
   font-weight: 700;
@@ -38,6 +38,7 @@ p {
 .btn {
   font-size: 20px;
   font-weight: 700;
+  line-height: 24px;
   border: none;
   width: 163px;
   height: 45px;
@@ -46,7 +47,10 @@ p {
   color: #ffffff; }
   .btn--header {
     background-color: #ffffff;
-    color: #000000; }
+    color: #000000;
+    font-family: Smooch Sans, Arial;
+    font-weight: 700;
+    font-size: 20px; }
 
 .phone-menu {
   z-index: 0;
@@ -97,6 +101,9 @@ header {
       display: flex;
       justify-content: center; }
       header #header-center ul li {
+        font-family: Smooch Sans, Arial;
+        font-size: 20px;
+        font-weight: 700;
         padding: 0 35px; }
   header #header-right {
     float: right; }
@@ -170,9 +177,12 @@ header {
           position: static;
           display: table;
           margin-top: 50px; } }
+      .main-section .articles .art .btn {
+        font-size: 20px; }
 
 footer {
-  position: fixed;
+  position: relative;
+  margin-bottom: 0px;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -182,5 +192,9 @@ footer {
   color: #000000;
   background-color: #e0e0e0;
   align-self: center; }
+  footer p {
+    font-family: Smooch Sans, Arial;
+    font-weight: 500;
+    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
