@@ -3,7 +3,6 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Social Vikings</title>
     <link
       href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext"
@@ -24,14 +23,14 @@
     <div id="container">
       <header>
         <div id="header-left"><a href="index.html" id="logo">Logo</a></div>
-        <div id="header-center" class="menu-container">
+        <div id="header-center">
           <nav id="menu">
-            <ul>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#">Link</a></li>
+              <li class="menu__item"><a href="#">Link</a></li>
+              <li class="menu__item"><a href="#">Link</a></li>
+              <li class="menu__item"><a href="#">Link</a></li>
+              <li class="menu__item"><a href="#">Link</a></li>
             </ul>
           </nav>
         </div>
@@ -48,8 +47,8 @@
       <section class="main-section">
         <div class="main-content">
           <div id="left">
-            <h1>Lorem ipsum dolor sit amet!</h1>
-            <p>
+            <h1 class="main-content__header">Lorem ipsum dolor sit amet!</h1>
+            <p class="main-content__description">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -59,13 +58,17 @@
             </p>
           </div>
           <div id="right">
-            <img src="img/ella-peebles-kUkqoqwY61s-unsplash 2.png" alt="" />
+            <img
+              src="img/ella-peebles-kUkqoqwY61s-unsplash 2.png"
+              alt=""
+              class="main-content__img"
+            />
           </div>
         </div>
         <div class="articles">
           <div class="art">
-            <h2>Lorem ipsum</h2>
-            <p>
+            <h2 class="art__header">Lorem ipsum</h2>
+            <p class="art__description">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -73,11 +76,11 @@
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially unchanged.
             </p>
-            <button class="btn">Button</button>
+            <button class="btn btn--art">Button</button>
           </div>
           <div class="art">
-            <h2>Lorem ipsum</h2>
-            <p>
+            <h2 class="art__header">Lorem ipsum</h2>
+            <p class="art__description">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -85,11 +88,11 @@
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially unchanged.
             </p>
-            <button class="btn">Button</button>
+            <button class="btn btn--art">Button</button>
           </div>
           <div class="art">
-            <h2>Lorem ipsum</h2>
-            <p>
+            <h2 class="art__header">Lorem ipsum</h2>
+            <p class="art__description">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -97,11 +100,11 @@
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially unchanged.
             </p>
-            <button type="button" class="btn">Button</button>
+            <button type="button" class="btn btn--art">Button</button>
           </div>
         </div>
       </section>
-      <footer><p>Lorem ipsum</p></footer>
+      <footer><p class="footer__description">Lorem ipsum</p></footer>
     </div>
   </body>
 </html>
